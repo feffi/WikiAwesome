@@ -6,7 +6,7 @@ This is a <a href="http://www.mediawiki.org/">Mediawiki</a> extension to include
 Installation
 -------------
 
-Add the following line in LocalSettings.php
+Add the following line in `LocalSettings.php`:
 
 ```php
 require_once( "$IP/extensions/WikiAwesome/WikiAwesome.php" );
