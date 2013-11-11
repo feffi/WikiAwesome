@@ -10,7 +10,7 @@
  * Installation: Add the following line in LocalSettings.php:
  * require_once( "$IP/extensions/WikiAwesome/WikiAwesome.php" );
  *
- * @author Kevin Wennemuth <feffi1@gmail.com>
+ * @author Kevin Wennemuth <feffi@feffi.org>
  * @license MIT
  * @version 0.0.1
  */
