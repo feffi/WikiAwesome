@@ -12,7 +12,7 @@ Manual Installation
 Add the following line in `LocalSettings.php`:
 
 ```php
-require_once( '$IP/extensions/WikiAwesome/WikiAwesome.php' );
+require_once( $IP.'/extensions/WikiAwesome/WikiAwesome.php' );
 ```
 
 Installation via github
@@ -21,7 +21,7 @@ Installation via github
 ```bash
 cd /var/www/mediawiki
 git clone https://github.com/feffi/WikiAwesome extensions/WikiAwesome
-echo "require_once( '$IP/extensions/WikiAwesome/WikiAwesome.php' );" >> LocalSettings.php
+echo "require_once( $IP.'/extensions/WikiAwesome/WikiAwesome.php' );" >> LocalSettings.php
 ```
 
 License
