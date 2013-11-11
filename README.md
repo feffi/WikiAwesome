@@ -3,24 +3,14 @@ WikiAwesome
 
 This is a <a href="http://www.mediawiki.org/">Mediawiki</a> extension to includes the <a href="http://fortawesome.github.io/Font-Awesome/">FontAwesome</a> CSS icon set in <a href="http://www.mediawiki.org/">Mediawiki</a> pages.
 
-Installation Methods
-=
-
-Manual Installation
--
-
-Add the following line in `LocalSettings.php`:
-
-```php
-require_once( $IP.'/extensions/WikiAwesome/WikiAwesome.php' );
-```
-
 Installation via github
--
+=
 
 ```bash
 cd /var/www/mediawiki
 git clone https://github.com/feffi/WikiAwesome extensions/WikiAwesome
+cd extensions/WikiAwesome
+git submodule update --init --recursive
 echo "require_once( $IP.'/extensions/WikiAwesome/WikiAwesome.php' );" >> LocalSettings.php
 ```
 
